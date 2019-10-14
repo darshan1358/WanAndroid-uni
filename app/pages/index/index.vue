@@ -4,33 +4,53 @@
 			<swiper-item class="swiper-item" v-for="(item, index) in bannerlist" :key="index"><image :src="item.imagePath" mode="widthFix" style="width: 100%;" /></swiper-item>
 		</swiper>
 
-		<view class="list-item" v-for="(item, index) in datalist" :key="index" @click="jumpDetailPage(item)">
-			<view class="list-item-title">{{ item.title }}</view>
-			<view class="list-item-chapter">{{ item.superChapterName +" . "+ item.chapterName }}</view>
+		<view class="list-item" v-for="(item,index) in datalist" :key="index" @tap="jumpDetailPage(item)">
+			<view class="list-item-top">
+				<text>{{ item.author }}</text>
+				<text>{{ item.niceShareDate }}</text>
+			</view>
+
+			<view class="list-item-image">
+				<view v-if="item.envelopePic != ''"><image :src="item.envelopePic" mode="scaleToFill" style="width: 120upx; height: 120upx;margin-right: 20upx;"></image></view>
+				<view class="list-item-title">{{ item.title }}</view>
+			</view>
+
+			<view class="list-item-bottom">
+				<view class="list-item-chapter">{{ item.superChapterName + ' . ' + item.chapterName }}</view>
+				<text class="yticon icon-shoucang" :class="{shoucang: item.collect}" @tap.stop="favoriteItem(index)"></text>
+			</view>
 		</view>
-		
-		<view style="visibility:isLoadMore? visible: hidden;">加载更多...</view>
+		<view v-if="isLoadMore"><view>加载更多...</view></view>
 	</view>
 </template>
 
 <script>
+var that,
+	timer = null;
+
 export default {
 	data() {
 		return {
-			isLoadMore:false,
-			pagesize:0,
+			favorite:false,
+			isLoadMore: false,
+			pagesize: 1,
 			bannerlist: [],
 			datalist: []
 		};
 	},
 	onLoad() {
+		that = this;
 		this.loadData();
 	},
 	onReachBottom() {
-		this.isLoadMore = true;
-		this.pagesize++;
-		this.loadListData(this.pagesize);
-		console.log(this.pagesize)
+		if (timer != null) {
+			clearTimeout(timer);
+		}
+		timer = setTimeout(function() {
+			that.isLoadMore = true;
+			that.loadListData(that.pagesize);
+			console.log(that.pagesize);
+		}, 1000);
 	},
 	onPullDownRefresh() {
 		this.loadData();
@@ -57,22 +77,22 @@ export default {
 				fail() {}
 			});
 		},
-		loadListData(pagesize){
-		
+		loadListData(pagesize) {
 			let that = this;
-			
-			console.log('https://www.wanandroid.com/article/list/'+that.pagesize+'/json');
+
+			console.log('https://www.wanandroid.com/article/list/' + that.pagesize + '/json');
 			//获取首页文章列表
 			uni.request({
-				url: 'https://www.wanandroid.com/article/list/'+that.pagesize+'/json',
+				url: 'https://www.wanandroid.com/article/list/' + that.pagesize + '/json',
 				success(res) {
-					if(that.pagesize==0){
+					if (that.pagesize == 0) {
 						that.datalist = res.data.data.datas;
-					}else{
-						console.log("length=="+that.datalist.length)
-						console.log("datas=="+res.data.data.datas.length)
+					} else {
+						console.log('length==' + that.datalist.length);
+						console.log('datas==' + res.data.data.datas.length);
 						that.datalist = that.datalist.concat(res.data.data.datas);
-						console.log("num=="+that.datalist.length)
+						console.log('num==' + that.datalist.length);
+						this.pagesize++;
 					}
 				},
 				fail() {},
@@ -81,10 +101,15 @@ export default {
 				}
 			});
 		},
-		jumpDetailPage(item){
+		jumpDetailPage(item) {
 			uni.navigateTo({
-				url:"../detailPage/detailPage?url="+item.link+"&title="+item.title
-			})
+				url: '../detailPage/detailPage?url=' + item.link + '&title=' + item.title
+			});
+		},
+		//收藏
+		favoriteItem(index){
+			console.log("shouceng")
+			this.datalist[index].collect = !this.datalist[index].collect;
 		}
 	}
 };
@@ -123,9 +148,22 @@ export default {
 	margin-right: 20upx;
 	border-radius: 16upx;
 	background: white;
-	box-shadow: 5px 5px 10px #C8C7CC;
+	box-shadow: 5px 5px 10px #c8c7cc;
+}
+.list-item-top {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 20upx;
+	font-size: 25upx;
+	color: #999999;
 }
 
+.list-item-image {
+	display: flex;
+	flex-direction: row;
+}
 .list-item-title {
 	width: auto;
 	position: relative;
@@ -133,11 +171,19 @@ export default {
 	color: $uni-text-color;
 	display: inline-block;
 }
+.list-item-bottom{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.shoucang{
+	color: #ff0000;
+}
 
 .list-item-chapter {
 	margin-top: 10upx;
 	font-size: 25upx;
 	color: #999999;
 }
-
 </style>
