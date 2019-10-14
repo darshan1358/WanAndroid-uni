@@ -3,14 +3,92 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh":true
 			}
 		}
-	],
+	    ,{
+            "path" : "pages/project/project",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/system/system",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/account/account",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/mine/mine",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/search/search",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/login/login",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/register/register",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/setting/setting",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/favorite/favorite",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/detailPage/detailPage",
+            "style" : {}
+        }
+    ],
+	"tabBar":{
+		"color": "#000000",
+		"selectedColor": "#007AFF",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list":[{
+			"pagePath":"pages/index/index",
+			"iconPath":"static/menu_main.png",
+			"selectedIconPath":"static/menu_main.png",
+			"text":"首页"
+		},
+		{
+			"pagePath":"pages/project/project",
+			"iconPath":"static/menu_project.png",
+			"selectedIconPath":"static/menu_project.png",
+			"text":"项目"
+		},
+		{
+			"pagePath":"pages/system/system",
+			"iconPath":"static/menu_tree.png",
+			"selectedIconPath":"static/menu_tree.png",
+			"text":"体系"
+		},
+		{
+			"pagePath":"pages/account/account",
+			"iconPath":"static/menu_public.png",
+			"selectedIconPath":"static/menu_public.png",
+			"text":"公众号"
+		},
+		{
+			"pagePath":"pages/mine/mine",
+			"iconPath":"static/menu_me.png",
+			"selectedIconPath":"static/menu_me.png",
+			"text":"我的"
+		}
+		]
+	},
 	"globalStyle": {
-		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "wanAndroid",
+		"navigationBarBackgroundColor": "#007AFF",
+		"backgroundColor": "#007AFF"
 	}
 }

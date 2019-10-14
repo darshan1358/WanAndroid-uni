@@ -1,0 +1,68 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/project/project",
+    "pages/system/system",
+    "pages/account/account",
+    "pages/mine/mine",
+    "pages/search/search",
+    "pages/login/login",
+    "pages/register/register",
+    "pages/setting/setting",
+    "pages/favorite/favorite",
+    "pages/detailPage/detailPage"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "wanAndroid",
+    "navigationBarBackgroundColor": "#007AFF",
+    "backgroundColor": "#007AFF"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#007AFF",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/menu_main.png",
+        "selectedIconPath": "static/menu_main.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/project/project",
+        "iconPath": "static/menu_project.png",
+        "selectedIconPath": "static/menu_project.png",
+        "text": "项目"
+      },
+      {
+        "pagePath": "pages/system/system",
+        "iconPath": "static/menu_tree.png",
+        "selectedIconPath": "static/menu_tree.png",
+        "text": "体系"
+      },
+      {
+        "pagePath": "pages/account/account",
+        "iconPath": "static/menu_public.png",
+        "selectedIconPath": "static/menu_public.png",
+        "text": "公众号"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "static/menu_me.png",
+        "selectedIconPath": "static/menu_me.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "nvueCompiler": "uni-app",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "app",
+  "compilerVersion": "2.3.3",
+  "usingComponents": {}
+}
