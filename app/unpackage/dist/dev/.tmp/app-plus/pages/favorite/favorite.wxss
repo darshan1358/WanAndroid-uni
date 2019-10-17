@@ -1,5 +1,6 @@
 
 .content {
+	position: fixed;
 	width: 100%;
 	height: 100%;
 	display: -webkit-box;
@@ -15,10 +16,6 @@
 	-webkit-align-items: center;
 	    -ms-flex-align: center;
 	        align-items: center;
-	-webkit-box-pack: center;
-	-webkit-justify-content: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
 	background: #eeeeee;
 }
 .swiper {
@@ -88,7 +85,7 @@
 	color: $uni-text-color;
 	display: inline-block;
 }
-.list-item-bottom {
+.list-item-bottom{
 	width: 100%;
 	display: -webkit-box;
 	display: -webkit-flex;
@@ -104,7 +101,7 @@
 	    -ms-flex-pack: justify;
 	        justify-content: space-between;
 }
-.shoucang {
+.shoucang{
 	color: #ff0000;
 }
 .list-item-chapter {

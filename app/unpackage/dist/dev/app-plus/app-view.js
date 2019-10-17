@@ -1074,6 +1074,32 @@ function gz$gwx_3(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_3)return __WXML_GLOBAL__.ops_cached.$gwx_3
 __WXML_GLOBAL__.ops_cached.$gwx_3=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'content'])
+Z([3,'index'])
+Z([3,'item'])
+Z([[7],[3,'datalist']])
+Z(z[1])
+Z([3,'__e'])
+Z([3,'list-item'])
+Z([[4],[[5],[[4],[[5],[[5],[1,'tap']],[[4],[[5],[[4],[[5],[[5],[[5],[1,'jumpDetailPage']],[[4],[[5],[1,'$0']]]],[[4],[[5],[[4],[[5],[[4],[[5],[[5],[[5],[1,'datalist']],[1,'']],[[7],[3,'index']]]]]]]]]]]]]]]])
+Z([3,'list-item-top'])
+Z([a,[[6],[[7],[3,'item']],[3,'author']]])
+Z([a,[[6],[[7],[3,'item']],[3,'niceDate']]])
+Z([3,'list-item-image'])
+Z([[2,'!='],[[6],[[7],[3,'item']],[3,'envelopePic']],[1,'']])
+Z([3,'scaleToFill'])
+Z([[6],[[7],[3,'item']],[3,'envelopePic']])
+Z([3,'width:120rpx;height:120rpx;margin-right:20rpx;'])
+Z([3,'list-item-title'])
+Z([a,[[6],[[7],[3,'item']],[3,'title']]])
+Z([3,'list-item-bottom'])
+Z([3,'list-item-chapter'])
+Z([a,[[6],[[7],[3,'item']],[3,'chapterName']]])
+Z(z[5])
+Z([3,'yticon icon-shoucang shoucang'])
+Z([[4],[[5],[[4],[[5],[[5],[1,'tap']],[[4],[[5],[[4],[[5],[[5],[1,'favoriteItem']],[[4],[[5],[[7],[3,'index']]]]]]]]]]]])
+Z([[7],[3,'isLoadMore']])
+Z([3,'加载更多...'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_3);return __WXML_GLOBAL__.ops_cached.$gwx_3
 }
 function gz$gwx_4(){
@@ -1100,22 +1126,78 @@ Z(z[5])
 Z([3,'__e'])
 Z([3,'list-item'])
 Z([[4],[[5],[[4],[[5],[[5],[1,'tap']],[[4],[[5],[[4],[[5],[[5],[[5],[1,'jumpDetailPage']],[[4],[[5],[1,'$0']]]],[[4],[[5],[[4],[[5],[[4],[[5],[[5],[[5],[1,'datalist']],[1,'']],[[7],[3,'index']]]]]]]]]]]]]]]])
+Z([3,'list-item-top'])
+Z([a,[[6],[[7],[3,'item']],[3,'author']]])
+Z([a,[[6],[[7],[3,'item']],[3,'niceShareDate']]])
+Z([3,'list-item-image'])
+Z([[2,'!='],[[6],[[7],[3,'item']],[3,'envelopePic']],[1,'']])
+Z([3,'scaleToFill'])
+Z([[6],[[7],[3,'item']],[3,'envelopePic']])
+Z([3,'width:120rpx;height:120rpx;margin-right:20rpx;'])
 Z([3,'list-item-title'])
 Z([a,[[6],[[7],[3,'item']],[3,'title']]])
+Z([3,'list-item-bottom'])
 Z([3,'list-item-chapter'])
 Z([a,[[2,'+'],[[2,'+'],[[6],[[7],[3,'item']],[3,'superChapterName']],[1,' . ']],[[6],[[7],[3,'item']],[3,'chapterName']]]])
+Z(z[17])
+Z([[4],[[5],[[5],[1,'yticon icon-shoucang']],[[2,'?:'],[[6],[[7],[3,'item']],[3,'collect']],[1,'shoucang'],[1,'']]]])
+Z([[4],[[5],[[4],[[5],[[5],[1,'tap']],[[4],[[5],[[4],[[5],[[5],[1,'favoriteItem']],[[4],[[5],[[7],[3,'index']]]]]]]]]]]])
+Z([[7],[3,'isLoadMore']])
+Z([3,'加载更多...'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_4);return __WXML_GLOBAL__.ops_cached.$gwx_4
 }
 function gz$gwx_5(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_5)return __WXML_GLOBAL__.ops_cached.$gwx_5
 __WXML_GLOBAL__.ops_cached.$gwx_5=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'content'])
+Z([3,'login-image'])
+Z([3,'widthFix'])
+Z([3,'../../static/ic_wandroid.png'])
+Z([3,'__e'])
+Z([3,'login-input'])
+Z([[4],[[5],[[4],[[5],[[5],[1,'input']],[[4],[[5],[[4],[[5],[[5],[1,'__set_model']],[[4],[[5],[[5],[[5],[[5],[1,'']],[1,'userName']],[1,'$event']],[[4],[[5]]]]]]]]]]]]])
+Z([3,'账号'])
+Z([3,'text'])
+Z([[7],[3,'userName']])
+Z(z[4])
+Z(z[5])
+Z([[4],[[5],[[4],[[5],[[5],[1,'input']],[[4],[[5],[[4],[[5],[[5],[1,'__set_model']],[[4],[[5],[[5],[[5],[[5],[1,'']],[1,'password']],[1,'$event']],[[4],[[5]]]]]]]]]]]]])
+Z([3,'密码'])
+Z(z[8])
+Z([[7],[3,'password']])
+Z(z[4])
+Z([3,'login-btn'])
+Z([[4],[[5],[[4],[[5],[[5],[1,'tap']],[[4],[[5],[[4],[[5],[1,'login']]]]]]]]])
+Z([3,'primary'])
+Z([3,'登录'])
+Z([3,'login-register'])
+Z([3,'../register/register'])
+Z([3,'去注册'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_5);return __WXML_GLOBAL__.ops_cached.$gwx_5
 }
 function gz$gwx_6(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_6)return __WXML_GLOBAL__.ops_cached.$gwx_6
 __WXML_GLOBAL__.ops_cached.$gwx_6=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'content'])
+Z([3,'mine-top'])
+Z([3,'top-image'])
+Z([3,'../../static/ic_account.png'])
+Z([3,'top-text'])
+Z([a,[[7],[3,'userName']]])
+Z([3,'list-content'])
+Z([3,'index'])
+Z([3,'item'])
+Z([[7],[3,'listData']])
+Z(z[7])
+Z([3,'__e'])
+Z([3,'list-item'])
+Z([[4],[[5],[[4],[[5],[[5],[1,'tap']],[[4],[[5],[[4],[[5],[[5],[1,'onClickItem']],[[4],[[5],[[7],[3,'index']]]]]]]]]]]])
+Z([3,'list-text'])
+Z([a,[[7],[3,'item']]])
+Z([3,'list-icon'])
+Z([3,'../../static/ic_right.png'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_6);return __WXML_GLOBAL__.ops_cached.$gwx_6
 }
 function gz$gwx_7(){
@@ -1128,6 +1210,33 @@ function gz$gwx_8(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_8)return __WXML_GLOBAL__.ops_cached.$gwx_8
 __WXML_GLOBAL__.ops_cached.$gwx_8=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'content'])
+Z([3,'login-image'])
+Z([3,'widthFix'])
+Z([3,'../../static/ic_wandroid.png'])
+Z([3,'__e'])
+Z([3,'login-input'])
+Z([[4],[[5],[[4],[[5],[[5],[1,'input']],[[4],[[5],[[4],[[5],[[5],[1,'__set_model']],[[4],[[5],[[5],[[5],[[5],[1,'']],[1,'userName']],[1,'$event']],[[4],[[5]]]]]]]]]]]]])
+Z([3,'账号'])
+Z([3,'text'])
+Z([[7],[3,'userName']])
+Z(z[4])
+Z(z[5])
+Z([[4],[[5],[[4],[[5],[[5],[1,'input']],[[4],[[5],[[4],[[5],[[5],[1,'__set_model']],[[4],[[5],[[5],[[5],[[5],[1,'']],[1,'password']],[1,'$event']],[[4],[[5]]]]]]]]]]]]])
+Z([3,'密码'])
+Z(z[8])
+Z([[7],[3,'password']])
+Z(z[4])
+Z(z[5])
+Z([[4],[[5],[[4],[[5],[[5],[1,'input']],[[4],[[5],[[4],[[5],[[5],[1,'__set_model']],[[4],[[5],[[5],[[5],[[5],[1,'']],[1,'confirmPw']],[1,'$event']],[[4],[[5]]]]]]]]]]]]])
+Z([3,'确认密码'])
+Z(z[8])
+Z([[7],[3,'confirmPw']])
+Z(z[4])
+Z([3,'login-btn'])
+Z([[4],[[5],[[4],[[5],[[5],[1,'tap']],[[4],[[5],[[4],[[5],[1,'register']]]]]]]]])
+Z([3,'primary'])
+Z([3,'注册'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_8);return __WXML_GLOBAL__.ops_cached.$gwx_8
 }
 function gz$gwx_9(){
@@ -1140,6 +1249,9 @@ function gz$gwx_10(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_10)return __WXML_GLOBAL__.ops_cached.$gwx_10
 __WXML_GLOBAL__.ops_cached.$gwx_10=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'__e'])
+Z([[4],[[5],[[4],[[5],[[5],[1,'tap']],[[4],[[5],[[4],[[5],[1,'loginOut']]]]]]]]])
+Z([3,'退出登录'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_10);return __WXML_GLOBAL__.ops_cached.$gwx_10
 }
 function gz$gwx_11(){
@@ -1173,6 +1285,65 @@ d_[x[2]]={}
 var m2=function(e,s,r,gg){
 var z=gz$gwx_3()
 var cF=_n('view')
+_rz(z,cF,'class',0,e,s,gg)
+var oH=_v()
+_(cF,oH)
+var cI=function(lK,oJ,aL,gg){
+var eN=_mz(z,'view',['bindtap',5,'class',1,'data-event-opts',2],[],lK,oJ,gg)
+var bO=_n('view')
+_rz(z,bO,'class',8,lK,oJ,gg)
+var oP=_n('text')
+var xQ=_oz(z,9,lK,oJ,gg)
+_(oP,xQ)
+_(bO,oP)
+var oR=_n('text')
+var fS=_oz(z,10,lK,oJ,gg)
+_(oR,fS)
+_(bO,oR)
+_(eN,bO)
+var cT=_n('view')
+_rz(z,cT,'class',11,lK,oJ,gg)
+var hU=_v()
+_(cT,hU)
+if(_oz(z,12,lK,oJ,gg)){hU.wxVkey=1
+var oV=_n('view')
+var cW=_mz(z,'image',['mode',13,'src',1,'style',2],[],lK,oJ,gg)
+_(oV,cW)
+_(hU,oV)
+}
+var oX=_n('view')
+_rz(z,oX,'class',16,lK,oJ,gg)
+var lY=_oz(z,17,lK,oJ,gg)
+_(oX,lY)
+_(cT,oX)
+hU.wxXCkey=1
+_(eN,cT)
+var aZ=_n('view')
+_rz(z,aZ,'class',18,lK,oJ,gg)
+var t1=_n('view')
+_rz(z,t1,'class',19,lK,oJ,gg)
+var e2=_oz(z,20,lK,oJ,gg)
+_(t1,e2)
+_(aZ,t1)
+var b3=_mz(z,'text',['catchtap',21,'class',1,'data-event-opts',2],[],lK,oJ,gg)
+_(aZ,b3)
+_(eN,aZ)
+_(aL,eN)
+return aL
+}
+oH.wxXCkey=2
+_2z(z,3,cI,e,s,gg,oH,'item','index','index')
+var hG=_v()
+_(cF,hG)
+if(_oz(z,24,e,s,gg)){hG.wxVkey=1
+var o4=_n('view')
+var x5=_n('view')
+var o6=_oz(z,25,e,s,gg)
+_(x5,o6)
+_(o4,x5)
+_(hG,o4)
+}
+hG.wxXCkey=1
 _(r,cF)
 return r
 }
@@ -1180,98 +1351,201 @@ e_[x[2]]={f:m2,j:[],i:[],ti:[],ic:[]}
 d_[x[3]]={}
 var m3=function(e,s,r,gg){
 var z=gz$gwx_4()
-var oH=_n('view')
-_rz(z,oH,'class',0,e,s,gg)
-var cI=_mz(z,'swiper',['autoplay',1,'class',1,'indicatorColor',2,'indicatorDots',3],[],e,s,gg)
-var oJ=_v()
-_(cI,oJ)
-var lK=function(tM,aL,eN,gg){
-var oP=_n('swiper-item')
-_rz(z,oP,'class',9,tM,aL,gg)
-var xQ=_mz(z,'image',['mode',10,'src',1,'style',2],[],tM,aL,gg)
-_(oP,xQ)
-_(eN,oP)
-return eN
+var c8=_n('view')
+_rz(z,c8,'class',0,e,s,gg)
+var o0=_mz(z,'swiper',['autoplay',1,'class',1,'indicatorColor',2,'indicatorDots',3],[],e,s,gg)
+var cAB=_v()
+_(o0,cAB)
+var oBB=function(aDB,lCB,tEB,gg){
+var bGB=_n('swiper-item')
+_rz(z,bGB,'class',9,aDB,lCB,gg)
+var oHB=_mz(z,'image',['mode',10,'src',1,'style',2],[],aDB,lCB,gg)
+_(bGB,oHB)
+_(tEB,bGB)
+return tEB
 }
-oJ.wxXCkey=2
-_2z(z,7,lK,e,s,gg,oJ,'item','index','index')
-_(oH,cI)
-var oR=_v()
-_(oH,oR)
-var fS=function(hU,cT,oV,gg){
-var oX=_mz(z,'view',['bindtap',17,'class',1,'data-event-opts',2],[],hU,cT,gg)
-var lY=_n('view')
-_rz(z,lY,'class',20,hU,cT,gg)
-var aZ=_oz(z,21,hU,cT,gg)
-_(lY,aZ)
-_(oX,lY)
-var t1=_n('view')
-_rz(z,t1,'class',22,hU,cT,gg)
-var e2=_oz(z,23,hU,cT,gg)
-_(t1,e2)
-_(oX,t1)
-_(oV,oX)
-return oV
+cAB.wxXCkey=2
+_2z(z,7,oBB,e,s,gg,cAB,'item','index','index')
+_(c8,o0)
+var xIB=_v()
+_(c8,xIB)
+var oJB=function(cLB,fKB,hMB,gg){
+var cOB=_mz(z,'view',['bindtap',17,'class',1,'data-event-opts',2],[],cLB,fKB,gg)
+var oPB=_n('view')
+_rz(z,oPB,'class',20,cLB,fKB,gg)
+var lQB=_n('text')
+var aRB=_oz(z,21,cLB,fKB,gg)
+_(lQB,aRB)
+_(oPB,lQB)
+var tSB=_n('text')
+var eTB=_oz(z,22,cLB,fKB,gg)
+_(tSB,eTB)
+_(oPB,tSB)
+_(cOB,oPB)
+var bUB=_n('view')
+_rz(z,bUB,'class',23,cLB,fKB,gg)
+var oVB=_v()
+_(bUB,oVB)
+if(_oz(z,24,cLB,fKB,gg)){oVB.wxVkey=1
+var xWB=_n('view')
+var oXB=_mz(z,'image',['mode',25,'src',1,'style',2],[],cLB,fKB,gg)
+_(xWB,oXB)
+_(oVB,xWB)
 }
-oR.wxXCkey=2
-_2z(z,15,fS,e,s,gg,oR,'item','index','index')
-_(r,oH)
+var fYB=_n('view')
+_rz(z,fYB,'class',28,cLB,fKB,gg)
+var cZB=_oz(z,29,cLB,fKB,gg)
+_(fYB,cZB)
+_(bUB,fYB)
+oVB.wxXCkey=1
+_(cOB,bUB)
+var h1B=_n('view')
+_rz(z,h1B,'class',30,cLB,fKB,gg)
+var o2B=_n('view')
+_rz(z,o2B,'class',31,cLB,fKB,gg)
+var c3B=_oz(z,32,cLB,fKB,gg)
+_(o2B,c3B)
+_(h1B,o2B)
+var o4B=_mz(z,'text',['catchtap',33,'class',1,'data-event-opts',2],[],cLB,fKB,gg)
+_(h1B,o4B)
+_(cOB,h1B)
+_(hMB,cOB)
+return hMB
+}
+xIB.wxXCkey=2
+_2z(z,15,oJB,e,s,gg,xIB,'item','index','index')
+var h9=_v()
+_(c8,h9)
+if(_oz(z,36,e,s,gg)){h9.wxVkey=1
+var l5B=_n('view')
+var a6B=_n('view')
+var t7B=_oz(z,37,e,s,gg)
+_(a6B,t7B)
+_(l5B,a6B)
+_(h9,l5B)
+}
+h9.wxXCkey=1
+_(r,c8)
 return r
 }
 e_[x[3]]={f:m3,j:[],i:[],ti:[],ic:[]}
 d_[x[4]]={}
 var m4=function(e,s,r,gg){
 var z=gz$gwx_5()
-var o4=_n('view')
-_(r,o4)
+var b9B=_n('view')
+_rz(z,b9B,'class',0,e,s,gg)
+var o0B=_mz(z,'image',['class',1,'mode',1,'src',2],[],e,s,gg)
+_(b9B,o0B)
+var xAC=_mz(z,'input',['bindinput',4,'class',1,'data-event-opts',2,'placeholder',3,'type',4,'value',5],[],e,s,gg)
+_(b9B,xAC)
+var oBC=_mz(z,'input',['bindinput',10,'class',1,'data-event-opts',2,'placeholder',3,'type',4,'value',5],[],e,s,gg)
+_(b9B,oBC)
+var fCC=_mz(z,'button',['bindtap',16,'class',1,'data-event-opts',2,'type',3],[],e,s,gg)
+var cDC=_oz(z,20,e,s,gg)
+_(fCC,cDC)
+_(b9B,fCC)
+var hEC=_mz(z,'navigator',['class',21,'url',1],[],e,s,gg)
+var oFC=_n('text')
+var cGC=_oz(z,23,e,s,gg)
+_(oFC,cGC)
+_(hEC,oFC)
+_(b9B,hEC)
+_(r,b9B)
 return r
 }
 e_[x[4]]={f:m4,j:[],i:[],ti:[],ic:[]}
 d_[x[5]]={}
 var m5=function(e,s,r,gg){
 var z=gz$gwx_6()
-var o6=_n('view')
-_(r,o6)
+var lIC=_n('view')
+_rz(z,lIC,'class',0,e,s,gg)
+var aJC=_n('view')
+_rz(z,aJC,'class',1,e,s,gg)
+var tKC=_mz(z,'image',['class',2,'src',1],[],e,s,gg)
+_(aJC,tKC)
+var eLC=_n('text')
+_rz(z,eLC,'class',4,e,s,gg)
+var bMC=_oz(z,5,e,s,gg)
+_(eLC,bMC)
+_(aJC,eLC)
+_(lIC,aJC)
+var oNC=_n('view')
+_rz(z,oNC,'class',6,e,s,gg)
+var xOC=_v()
+_(oNC,xOC)
+var oPC=function(cRC,fQC,hSC,gg){
+var cUC=_mz(z,'view',['bindtap',11,'class',1,'data-event-opts',2],[],cRC,fQC,gg)
+var oVC=_n('view')
+_rz(z,oVC,'class',14,cRC,fQC,gg)
+var lWC=_oz(z,15,cRC,fQC,gg)
+_(oVC,lWC)
+_(cUC,oVC)
+var aXC=_mz(z,'image',['class',16,'src',1],[],cRC,fQC,gg)
+_(cUC,aXC)
+_(hSC,cUC)
+return hSC
+}
+xOC.wxXCkey=2
+_2z(z,9,oPC,e,s,gg,xOC,'item','index','index')
+_(lIC,oNC)
+_(r,lIC)
 return r
 }
 e_[x[5]]={f:m5,j:[],i:[],ti:[],ic:[]}
 d_[x[6]]={}
 var m6=function(e,s,r,gg){
 var z=gz$gwx_7()
-var c8=_n('view')
-_(r,c8)
+var eZC=_n('view')
+_(r,eZC)
 return r
 }
 e_[x[6]]={f:m6,j:[],i:[],ti:[],ic:[]}
 d_[x[7]]={}
 var m7=function(e,s,r,gg){
 var z=gz$gwx_8()
-var o0=_n('view')
-_(r,o0)
+var o2C=_n('view')
+_rz(z,o2C,'class',0,e,s,gg)
+var x3C=_mz(z,'image',['class',1,'mode',1,'src',2],[],e,s,gg)
+_(o2C,x3C)
+var o4C=_mz(z,'input',['bindinput',4,'class',1,'data-event-opts',2,'placeholder',3,'type',4,'value',5],[],e,s,gg)
+_(o2C,o4C)
+var f5C=_mz(z,'input',['bindinput',10,'class',1,'data-event-opts',2,'placeholder',3,'type',4,'value',5],[],e,s,gg)
+_(o2C,f5C)
+var c6C=_mz(z,'input',['bindinput',16,'class',1,'data-event-opts',2,'placeholder',3,'type',4,'value',5],[],e,s,gg)
+_(o2C,c6C)
+var h7C=_mz(z,'button',['bindtap',22,'class',1,'data-event-opts',2,'type',3],[],e,s,gg)
+var o8C=_oz(z,26,e,s,gg)
+_(h7C,o8C)
+_(o2C,h7C)
+_(r,o2C)
 return r
 }
 e_[x[7]]={f:m7,j:[],i:[],ti:[],ic:[]}
 d_[x[8]]={}
 var m8=function(e,s,r,gg){
 var z=gz$gwx_9()
-var oBB=_n('view')
-_(r,oBB)
+var o0C=_n('view')
+_(r,o0C)
 return r
 }
 e_[x[8]]={f:m8,j:[],i:[],ti:[],ic:[]}
 d_[x[9]]={}
 var m9=function(e,s,r,gg){
 var z=gz$gwx_10()
-var aDB=_n('view')
-_(r,aDB)
+var aBD=_n('view')
+var tCD=_mz(z,'view',['bindtap',0,'data-event-opts',1],[],e,s,gg)
+var eDD=_oz(z,2,e,s,gg)
+_(tCD,eDD)
+_(aBD,tCD)
+_(r,aBD)
 return r
 }
 e_[x[9]]={f:m9,j:[],i:[],ti:[],ic:[]}
 d_[x[10]]={}
 var m10=function(e,s,r,gg){
 var z=gz$gwx_11()
-var eFB=_n('view')
-_(r,eFB)
+var oFD=_n('view')
+_(r,oFD)
 return r
 }
 e_[x[10]]={f:m10,j:[],i:[],ti:[],ic:[]}
@@ -1330,7 +1604,7 @@ var setCssToHead = function(file, _xcInvalid, info) {
 var Ca = {};
 var css_id;
 var info = info || {};
-var _C= [[[2,1],],[],];
+var _C= [[[2,1],],["@font-face { font-family: yticon; font-weight: normal; font-style: normal; src: url(\x27https://at.alicdn.com/t/font_1078604_w4kpxh0rafi.ttf\x27) format(\x27truetype\x27); }\n.",[1],"yticon { font-family: \x22yticon\x22 !important; font-size: 16px; font-style: normal; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }\n.",[1],"icon-yiguoqi1:before { content: \x22\\E700\x22; }\n.",[1],"icon-iconfontshanchu1:before { content: \x22\\E619\x22; }\n.",[1],"icon-iconfontweixin:before { content: \x22\\E611\x22; }\n.",[1],"icon-alipay:before { content: \x22\\E636\x22; }\n.",[1],"icon-shang:before { content: \x22\\E624\x22; }\n.",[1],"icon-shouye:before { content: \x22\\E626\x22; }\n.",[1],"icon-shanchu4:before { content: \x22\\E622\x22; }\n.",[1],"icon-xiaoxi:before { content: \x22\\E618\x22; }\n.",[1],"icon-jiantour-copy:before { content: \x22\\E600\x22; }\n.",[1],"icon-fenxiang2:before { content: \x22\\E61E\x22; }\n.",[1],"icon-pingjia:before { content: \x22\\E67B\x22; }\n.",[1],"icon-daifukuan:before { content: \x22\\E68F\x22; }\n.",[1],"icon-pinglun-copy:before { content: \x22\\E612\x22; }\n.",[1],"icon-dianhua-copy:before { content: \x22\\E621\x22; }\n.",[1],"icon-shoucang:before { content: \x22\\E645\x22; }\n.",[1],"icon-xuanzhong2:before { content: \x22\\E62F\x22; }\n.",[1],"icon-gouwuche_:before { content: \x22\\E630\x22; }\n.",[1],"icon-icon-test:before { content: \x22\\E60C\x22; }\n.",[1],"icon-icon-test1:before { content: \x22\\E632\x22; }\n.",[1],"icon-bianji:before { content: \x22\\E646\x22; }\n.",[1],"icon-jiazailoading-A:before { content: \x22\\E8FC\x22; }\n.",[1],"icon-zuoshang:before { content: \x22\\E613\x22; }\n.",[1],"icon-jia2:before { content: \x22\\E60A\x22; }\n.",[1],"icon-huifu:before { content: \x22\\E68B\x22; }\n.",[1],"icon-sousuo:before { content: \x22\\E7CE\x22; }\n.",[1],"icon-arrow-fine-up:before { content: \x22\\E601\x22; }\n.",[1],"icon-hot:before { content: \x22\\E60E\x22; }\n.",[1],"icon-lishijilu:before { content: \x22\\E6B9\x22; }\n.",[1],"icon-zhengxinchaxun-zhifubaoceping-:before { content: \x22\\E616\x22; }\n.",[1],"icon-naozhong:before { content: \x22\\E64A\x22; }\n.",[1],"icon-xiatubiao--copy:before { content: \x22\\E608\x22; }\n.",[1],"icon-shoucang_xuanzhongzhuangtai:before { content: \x22\\E6A9\x22; }\n.",[1],"icon-jia1:before { content: \x22\\E61C\x22; }\n.",[1],"icon-bangzhu1:before { content: \x22\\E63D\x22; }\n.",[1],"icon-arrow-left-bottom:before { content: \x22\\E602\x22; }\n.",[1],"icon-arrow-right-bottom:before { content: \x22\\E603\x22; }\n.",[1],"icon-arrow-left-top:before { content: \x22\\E604\x22; }\n.",[1],"icon-icon--:before { content: \x22\\E744\x22; }\n.",[1],"icon-zuojiantou-up:before { content: \x22\\E605\x22; }\n.",[1],"icon-xia:before { content: \x22\\E62D\x22; }\n.",[1],"icon--jianhao:before { content: \x22\\E60B\x22; }\n.",[1],"icon-weixinzhifu:before { content: \x22\\E61A\x22; }\n.",[1],"icon-comment:before { content: \x22\\E64F\x22; }\n.",[1],"icon-weixin:before { content: \x22\\E61F\x22; }\n.",[1],"icon-fenlei1:before { content: \x22\\E620\x22; }\n.",[1],"icon-erjiye-yucunkuan:before { content: \x22\\E623\x22; }\n.",[1],"icon-Group-:before { content: \x22\\E688\x22; }\n.",[1],"icon-you:before { content: \x22\\E606\x22; }\n.",[1],"icon-forward:before { content: \x22\\E607\x22; }\n.",[1],"icon-tuijian:before { content: \x22\\E610\x22; }\n.",[1],"icon-bangzhu:before { content: \x22\\E679\x22; }\n.",[1],"icon-share:before { content: \x22\\E656\x22; }\n.",[1],"icon-yiguoqi:before { content: \x22\\E997\x22; }\n.",[1],"icon-shezhi1:before { content: \x22\\E61D\x22; }\n.",[1],"icon-fork:before { content: \x22\\E61B\x22; }\n.",[1],"icon-kafei:before { content: \x22\\E66A\x22; }\n.",[1],"icon-iLinkapp-:before { content: \x22\\E654\x22; }\n.",[1],"icon-saomiao:before { content: \x22\\E60D\x22; }\n.",[1],"icon-shezhi:before { content: \x22\\E60F\x22; }\n.",[1],"icon-shouhoutuikuan:before { content: \x22\\E631\x22; }\n.",[1],"icon-gouwuche:before { content: \x22\\E609\x22; }\n.",[1],"icon-dizhi:before { content: \x22\\E614\x22; }\n.",[1],"icon-fenlei:before { content: \x22\\E706\x22; }\n.",[1],"icon-xingxing:before { content: \x22\\E70B\x22; }\n.",[1],"icon-tuandui:before { content: \x22\\E633\x22; }\n.",[1],"icon-zuanshi:before { content: \x22\\E615\x22; }\n.",[1],"icon-zuo:before { content: \x22\\E63C\x22; }\n.",[1],"icon-shoucang2:before { content: \x22\\E62E\x22; }\n.",[1],"icon-shouhuodizhi:before { content: \x22\\E712\x22; }\n.",[1],"icon-yishouhuo:before { content: \x22\\E71A\x22; }\n.",[1],"icon-dianzan-ash:before { content: \x22\\E617\x22; }\n",],];
 function makeup(file, opt) {
 var _n = typeof(file) === "number";
 if ( _n && Ca.hasOwnProperty(file)) return "";
@@ -1405,22 +1679,22 @@ __wxAppCode__['pages/account/account.wxml']=$gwx('./pages/account/account.wxml')
 __wxAppCode__['pages/detailPage/detailPage.wxss']=setCssToHead([".",[1],"content{ width: 100%; height: 100%; }\n",],undefined,{path:"./pages/detailPage/detailPage.wxss"});    
 __wxAppCode__['pages/detailPage/detailPage.wxml']=$gwx('./pages/detailPage/detailPage.wxml');
 
-__wxAppCode__['pages/favorite/favorite.wxss']=undefined;    
+__wxAppCode__['pages/favorite/favorite.wxss']=setCssToHead([".",[1],"content { position: fixed; width: 100%; height: 100%; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; background: #eeeeee; }\n.",[1],"swiper { width: 100%; height: ",[0,380],"; }\n.",[1],"swiper-item { width: 100%; height: 100%; padding: 0; }\n.",[1],"list-item { width: 88%; position: relative; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; padding: ",[0,20],"; margin-top: ",[0,20],"; margin-left: ",[0,20],"; margin-right: ",[0,20],"; border-radius: ",[0,16],"; background: white; -webkit-box-shadow: 5px 5px 10px #c8c7cc; box-shadow: 5px 5px 10px #c8c7cc; }\n.",[1],"list-item-top { width: 100%; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; margin-bottom: ",[0,20],"; font-size: ",[0,25],"; color: #999999; }\n.",[1],"list-item-image { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row; }\n.",[1],"list-item-title { width: auto; position: relative; font-size: ",[0,30],"; color: $uni-text-color; display: inline-block; }\n.",[1],"list-item-bottom{ width: 100%; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; }\n.",[1],"shoucang{ color: #ff0000; }\n.",[1],"list-item-chapter { margin-top: ",[0,10],"; font-size: ",[0,25],"; color: #999999; }\n",],undefined,{path:"./pages/favorite/favorite.wxss"});    
 __wxAppCode__['pages/favorite/favorite.wxml']=$gwx('./pages/favorite/favorite.wxml');
 
-__wxAppCode__['pages/index/index.wxss']=setCssToHead([".",[1],"content { width: 100%; height: 100%; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; background: #eeeeee; }\n.",[1],"swiper { width: 100%; height: ",[0,380],"; }\n.",[1],"swiper-item { width: 100%; height: 100%; padding: 0; }\n.",[1],"list-item { width: 88%; position: relative; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; padding: ",[0,20],"; margin-top: ",[0,20],"; margin-left: ",[0,20],"; margin-right: ",[0,20],"; border-radius: ",[0,16],"; background: white; -webkit-box-shadow: 5px 5px 10px #C8C7CC; box-shadow: 5px 5px 10px #C8C7CC; }\n.",[1],"list-item-title { width: auto; position: relative; font-size: ",[0,30],"; color: $uni-text-color; display: inline-block; }\n.",[1],"list-item-chapter { margin-top: ",[0,10],"; font-size: ",[0,25],"; color: #999999; }\n",],undefined,{path:"./pages/index/index.wxss"});    
+__wxAppCode__['pages/index/index.wxss']=setCssToHead([".",[1],"content { width: 100%; height: 100%; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; background: #eeeeee; }\n.",[1],"swiper { width: 100%; height: ",[0,380],"; }\n.",[1],"swiper-item { width: 100%; height: 100%; padding: 0; }\n.",[1],"list-item { width: 88%; position: relative; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; padding: ",[0,20],"; margin-top: ",[0,20],"; margin-left: ",[0,20],"; margin-right: ",[0,20],"; border-radius: ",[0,16],"; background: white; -webkit-box-shadow: 5px 5px 10px #c8c7cc; box-shadow: 5px 5px 10px #c8c7cc; }\n.",[1],"list-item-top { width: 100%; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; margin-bottom: ",[0,20],"; font-size: ",[0,25],"; color: #999999; }\n.",[1],"list-item-image { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row; }\n.",[1],"list-item-title { width: auto; position: relative; font-size: ",[0,30],"; color: $uni-text-color; display: inline-block; }\n.",[1],"list-item-bottom { width: 100%; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; }\n.",[1],"shoucang { color: #ff0000; }\n.",[1],"list-item-chapter { margin-top: ",[0,10],"; font-size: ",[0,25],"; color: #999999; }\n",],undefined,{path:"./pages/index/index.wxss"});    
 __wxAppCode__['pages/index/index.wxml']=$gwx('./pages/index/index.wxml');
 
-__wxAppCode__['pages/login/login.wxss']=undefined;    
+__wxAppCode__['pages/login/login.wxss']=setCssToHead([".",[1],"content { position: fixed; width: 100%; height: 100%; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; }\n.",[1],"login-image { width: ",[0,200],"; height: ",[0,200],"; margin: ",[0,100],"; }\n.",[1],"login-input { width: 80%; height: ",[0,80],"; background: #eeeeee; border-radius: ",[0,10],"; margin: ",[0,30],"; padding-left: ",[0,20],"; }\n.",[1],"login-btn { width: 80%; margin-top: ",[0,50],"; }\n.",[1],"login-register { font-size: ",[0,30],"; color: #007aff; margin-top: ",[0,50],"; }\n",],undefined,{path:"./pages/login/login.wxss"});    
 __wxAppCode__['pages/login/login.wxml']=$gwx('./pages/login/login.wxml');
 
-__wxAppCode__['pages/mine/mine.wxss']=undefined;    
+__wxAppCode__['pages/mine/mine.wxss']=setCssToHead([".",[1],"content { position: fixed; width: 100%; height: 100%; background: #eeeeee; }\n.",[1],"mine-top { width: 100%; height: ",[0,480],"; background: #007aff; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; }\n.",[1],"top-image { margin-bottom: ",[0,30],"; margin-top: ",[0,30],"; width: ",[0,150],"; height: ",[0,150],"; border-radius: 50%; }\n.",[1],"top-text { color: white; font-size: ",[0,35],"; }\n.",[1],"list-content { position: relative; top: ",[0,-160],"; background: white; margin: ",[0,35],"; border-radius: ",[0,15],"; padding: ",[0,40],"; }\n.",[1],"list-item { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; margin-bottom: ",[0,50],"; }\n.",[1],"list-text { font-size: ",[0,30],"; }\n.",[1],"list-icon { width: ",[0,35],"; height: ",[0,35],"; }\n",],undefined,{path:"./pages/mine/mine.wxss"});    
 __wxAppCode__['pages/mine/mine.wxml']=$gwx('./pages/mine/mine.wxml');
 
 __wxAppCode__['pages/project/project.wxss']=undefined;    
 __wxAppCode__['pages/project/project.wxml']=$gwx('./pages/project/project.wxml');
 
-__wxAppCode__['pages/register/register.wxss']=undefined;    
+__wxAppCode__['pages/register/register.wxss']=setCssToHead([".",[1],"content { position: fixed; width: 100%; height: 100%; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; }\n.",[1],"login-image { width: ",[0,200],"; height: ",[0,200],"; margin: ",[0,100],"; }\n.",[1],"login-input { width: 80%; height: ",[0,80],"; background: #eeeeee; border-radius: ",[0,10],"; margin: ",[0,30],"; padding-left: ",[0,20],"; }\n.",[1],"login-btn { width: 80%; margin-top: ",[0,30],"; }\n",],undefined,{path:"./pages/register/register.wxss"});    
 __wxAppCode__['pages/register/register.wxml']=$gwx('./pages/register/register.wxml');
 
 __wxAppCode__['pages/search/search.wxss']=undefined;    

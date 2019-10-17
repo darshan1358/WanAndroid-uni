@@ -1,1 +1,1 @@
-<view></view>
+<view class="content"><view class="mine-top"><image class="top-image" src="../../static/ic_account.png"></image><text class="top-text">{{userName}}</text></view><view class="list-content"><block wx:for="{{listData}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view data-event-opts="{{[['tap',[['onClickItem',[index]]]]]}}" class="list-item" bindtap="__e"><view class="list-text">{{item}}</view><image class="list-icon" src="../../static/ic_right.png"></image></view></block></view></view>

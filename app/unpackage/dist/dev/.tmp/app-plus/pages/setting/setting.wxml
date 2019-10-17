@@ -1,1 +1,1 @@
-<view></view>
+<view><view data-event-opts="{{[['tap',[['loginOut']]]]}}" bindtap="__e">退出登录</view></view>

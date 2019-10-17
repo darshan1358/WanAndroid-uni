@@ -21,7 +21,9 @@
         }
         ,{
             "path" : "pages/mine/mine",
-            "style" : {}
+            "style" : {
+				"navigationBarTitleText": "我的"
+			}
         }
         ,{
             "path" : "pages/search/search",
@@ -29,19 +31,28 @@
         }
         ,{
             "path" : "pages/login/login",
-            "style" : {}
+            "style" : {
+				"navigationBarTitleText":"登录"
+			}
         }
         ,{
             "path" : "pages/register/register",
-            "style" : {}
+            "style" : {
+				"navigationBarTitleText":"注册"
+			}
         }
         ,{
             "path" : "pages/setting/setting",
-            "style" : {}
+            "style" : {
+				"navigationBarTitleText":"系统设置"
+			}
         }
         ,{
             "path" : "pages/favorite/favorite",
-            "style" : {}
+            "style" : {
+				"navigationBarTitleText":"我的收藏",
+				"enablePullDownRefresh":true
+			}
         }
         ,{
             "path" : "pages/detailPage/detailPage",

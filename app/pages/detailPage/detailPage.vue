@@ -12,6 +12,7 @@
 			}
 		},
 		onLoad(par) {
+			console.log("detail==par=="+JSON.stringify(par))
 			this.title = par.title;
 			this.url = par.url
 		},

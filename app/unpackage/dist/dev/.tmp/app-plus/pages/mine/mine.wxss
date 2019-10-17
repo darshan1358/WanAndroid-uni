@@ -1,0 +1,68 @@
+
+.content {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: #eeeeee;
+}
+.mine-top {
+	width: 100%;
+	height: 480rpx;
+	background: #007aff;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+.top-image {
+	margin-bottom: 30rpx;
+	margin-top: 30rpx;
+	width: 150rpx;
+	height: 150rpx;
+	border-radius: 50%;
+}
+.top-text {
+	color: white;
+	font-size: 35rpx;
+}
+.list-content {
+	position: relative;
+	top: -160rpx;
+	background: white;
+	margin: 35rpx;
+	border-radius: 15rpx;
+	padding: 40rpx;
+}
+.list-item {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	margin-bottom: 50rpx;
+}
+.list-text {
+	font-size: 30rpx;
+}
+.list-icon {
+	width: 35rpx;
+	height: 35rpx;
+}
+

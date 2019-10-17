@@ -4,7 +4,7 @@
 			<swiper-item class="swiper-item" v-for="(item, index) in bannerlist" :key="index"><image :src="item.imagePath" mode="widthFix" style="width: 100%;" /></swiper-item>
 		</swiper>
 
-		<view class="list-item" v-for="(item,index) in datalist" :key="index" @tap="jumpDetailPage(item)">
+		<view class="list-item" v-for="(item, index) in datalist" :key="index" @tap="jumpDetailPage(item)">
 			<view class="list-item-top">
 				<text>{{ item.author }}</text>
 				<text>{{ item.niceShareDate }}</text>
@@ -17,7 +17,7 @@
 
 			<view class="list-item-bottom">
 				<view class="list-item-chapter">{{ item.superChapterName + ' . ' + item.chapterName }}</view>
-				<text class="yticon icon-shoucang" :class="{shoucang: item.collect}" @tap.stop="favoriteItem(index)"></text>
+				<text class="yticon icon-shoucang" :class="{ shoucang: item.collect }" @tap.stop="favoriteItem(index)"></text>
 			</view>
 		</view>
 		<view v-if="isLoadMore"><view>加载更多...</view></view>
@@ -31,7 +31,7 @@ var that,
 export default {
 	data() {
 		return {
-			favorite:false,
+			favorite: false,
 			isLoadMore: false,
 			pagesize: 1,
 			bannerlist: [],
@@ -72,9 +72,11 @@ export default {
 				url: 'https://www.wanandroid.com/article/list/0/json',
 				success(res) {
 					that.datalist = res.data.data.datas;
-					uni.stopPullDownRefresh();
 				},
-				fail() {}
+				fail() {},
+				complete() {
+					uni.stopPullDownRefresh();
+				}
 			});
 		},
 		loadListData(pagesize) {
@@ -107,9 +109,31 @@ export default {
 			});
 		},
 		//收藏
-		favoriteItem(index){
-			console.log("shouceng")
-			this.datalist[index].collect = !this.datalist[index].collect;
+		favoriteItem(index) {
+			//判断是否登录
+			const res = uni.getStorageSync('userData');
+			
+			console.log("userData=="+JSON.stringify(res));
+			if (res != null && res != '') {
+				console.log('item==' + JSON.stringify(this.datalist[index]));
+				this.datalist[index].collect = !this.datalist[index].collect;
+				//通知后台收藏或取消收藏
+				if (this.datalist[index].collect) {
+					uni.request({
+						method: 'POST',
+						url: 'https://www.wanandroid.com/lg/collect/' + this.datalist[index].id + '/json'
+					});
+				} else {
+					uni.request({
+						method: 'POST',
+						url: 'https://www.wanandroid.com/lg/uncollect_originId/' + this.datalist[index].id + '/json'
+					});
+				}
+			}else{
+				uni.navigateTo({
+					url:"../login/login"
+				})
+			}
 		}
 	}
 };
@@ -171,13 +195,13 @@ export default {
 	color: $uni-text-color;
 	display: inline-block;
 }
-.list-item-bottom{
+.list-item-bottom {
 	width: 100%;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 }
-.shoucang{
+.shoucang {
 	color: #ff0000;
 }
 
