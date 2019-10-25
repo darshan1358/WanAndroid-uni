@@ -1,4 +1,4 @@
-# wan-android
+# wan-android(uni-app版)
 ## 前言
  最近手上项目已完成，在等待验收阶段，个人有空闲时间，领导安排我们学习H5-App开发，为将来的项目做准备。在网上查了一下，uni-app是目前h5开发app比较流行和方便的框架。`uni-app` 是一个使用 [Vue.js](https://vuejs.org/) 开发所有前端应用的框架，开发者编写一套代码，可发布到iOS、Android、H5、以及各种小程序（微信/支付宝/百度/头条/QQ/钉钉）等多个平台。详情可看：[uni-app官网链接](https://uniapp.dcloud.io/README)
 
