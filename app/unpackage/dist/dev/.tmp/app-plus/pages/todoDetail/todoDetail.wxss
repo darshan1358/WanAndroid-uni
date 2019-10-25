@@ -1,0 +1,23 @@
+
+.content {
+	padding-left: 30rpx;
+	padding-right: 30rpx;
+}
+.todo-title {
+	margin-top: 40rpx;
+	font-size: 20rpx;
+	color: #999999;
+}
+.todo-input {
+	margin-top: 20rpx;
+	background: #eeeeee;
+	border-radius: 10rpx;
+	padding: 20rpx;
+	font-size: 25rpx;
+}
+.todo-button {
+	margin-top: 60rpx;
+	background: #0081ff;
+	color: white;
+}
+

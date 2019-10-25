@@ -1,0 +1,60 @@
+
+.content {
+	width: 100%;
+	height: 100%;
+	background: #eeeeee;
+}
+.top {
+	width: 100%;
+	height: 280rpx;
+	background: #0081ff;
+	font-size: 120rpx;
+	font-weight: bold;
+	color: white;
+	padding-top: 80rpx;
+	text-align: center;
+}
+.list-item {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	background: white;
+	border-radius: 20rpx;
+	padding: 20rpx;
+	margin: 20rpx;
+	-webkit-box-shadow: 10rpx 10rpx 20rpx #c0c0c0;
+	        box-shadow: 10rpx 10rpx 20rpx #c0c0c0;
+}
+.item-layout {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+.item-title {
+	font-size: 30rpx;
+}
+.item-time {
+	margin-top: 15rpx;
+	font-size: 25rpx;
+	color: #808080;
+}
+.item-integral {
+	font-size: 30rpx;
+	color: #0081ff;
+}
+

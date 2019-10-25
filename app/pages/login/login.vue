@@ -2,7 +2,7 @@
 	<view class="content">
 		<image class="login-image" src="../../static/ic_wandroid.png" mode="widthFix"></image>
 		<input class="login-input" type="text" placeholder="账号" v-model="userName" />
-		<input class="login-input" type="text" placeholder="密码" v-model="password" />
+		<input class="login-input" type="text" placeholder="密码" v-model="password" password="true"/>
 		<button class="login-btn" type="primary" @tap="login()">登录</button>
 		<navigator class="login-register" url="../register/register"><text>去注册</text></navigator>
 	</view>
@@ -52,6 +52,7 @@ export default {
 						uni.setStorage({
 							key:"userData",
 							data:{
+								"id":e.data.data.id,
 								"userName":that.userName.trim(),
 								"password":that.password.trim()
 							}

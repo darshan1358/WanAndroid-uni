@@ -1,0 +1,1 @@
+<view class="content"><view class="top">{{integral}}</view><block wx:for="{{$root.l0}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view class="list-item"><view class="item-layout"><view class="item-title">{{item.g0}}</view><view class="item-time">{{item.g1}}</view></view><view class="item-integral">{{'+'+item.$orig.coinCount}}</view></view></block></view>

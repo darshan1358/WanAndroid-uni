@@ -9,20 +9,30 @@
 		}
 	    ,{
             "path" : "pages/project/project",
-            "style" : {}
+            "style" : {
+				"navigationStyle":"custom",
+				"enablePullDownRefresh":false,
+				"onReachBottomDistance":200
+			}
         }
         ,{
             "path" : "pages/system/system",
-            "style" : {}
+            "style" : {
+				"navigationStyle":"custom"
+			}
         }
         ,{
             "path" : "pages/account/account",
-            "style" : {}
+            "style" : {
+				"navigationStyle":"custom",
+				"enablePullDownRefresh":false,
+				"onReachBottomDistance":200
+			}
         }
         ,{
             "path" : "pages/mine/mine",
             "style" : {
-				"navigationBarTitleText": "我的"
+				"navigationStyle":"custom"
 			}
         }
         ,{
@@ -57,6 +67,46 @@
         ,{
             "path" : "pages/detailPage/detailPage",
             "style" : {}
+        },
+		{
+		    "path" : "pages/demo/demo",
+		    "style" : {}
+		}
+        ,{
+            "path" : "pages/systemList/systemList",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/integral/integral",
+            "style" : {
+				"navigationBarTitleText":"我的积分"
+			}
+        }
+        ,{
+            "path" : "pages/todo/todo",
+            "style" : {
+				"navigationBarTitleText":"待办清单",
+				"app-plus":{
+					"titleNView":{
+						
+						"buttons": [{
+								"fontSrc": "/static/yticon.ttf",
+								"text": "\ue60a",
+								"fontSize": "24",
+								"color": "#FFFFFF",
+								"width": "30px",
+								"float":"right",
+								"background": "rgba(0,0,0,0)"
+							}]
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/todoDetail/todoDetail",
+            "style" : {
+				"navigationBarTitleText":"编辑待办清单"
+			}
         }
     ],
 	"tabBar":{
@@ -74,6 +124,7 @@
 			"pagePath":"pages/project/project",
 			"iconPath":"static/menu_project.png",
 			"selectedIconPath":"static/menu_project.png",
+			"enablePullDownRefresh":true,
 			"text":"项目"
 		},
 		{
@@ -99,7 +150,8 @@
 	"globalStyle": {
 		"navigationBarTextStyle": "white",
 		"navigationBarTitleText": "wanAndroid",
-		"navigationBarBackgroundColor": "#007AFF",
-		"backgroundColor": "#007AFF"
+		"navigationBarBackgroundColor": "#0081FF",
+		"backgroundColor": "#0081FF"
 	}
+	
 }

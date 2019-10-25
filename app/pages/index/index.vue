@@ -43,6 +43,7 @@ export default {
 		this.loadData();
 	},
 	onReachBottom() {
+		console.log("onReachBottom");
 		if (timer != null) {
 			clearTimeout(timer);
 		}
@@ -94,12 +95,12 @@ export default {
 						console.log('datas==' + res.data.data.datas.length);
 						that.datalist = that.datalist.concat(res.data.data.datas);
 						console.log('num==' + that.datalist.length);
-						this.pagesize++;
+						that.pagesize++;
 					}
 				},
 				fail() {},
 				complete() {
-					this.isLoadMore = false;
+					that.isLoadMore = false;
 				}
 			});
 		},
@@ -158,7 +159,6 @@ export default {
 .swiper-item {
 	width: 100%;
 	height: 100%;
-	padding: 0;
 }
 
 .list-item {

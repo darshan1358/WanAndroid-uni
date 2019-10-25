@@ -1,0 +1,105 @@
+
+.content {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	background: #f8f8f8;
+}
+.content-list {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #f8f8f8;
+}
+.empty-image {
+	margin: 20rpx;
+	width: 180rpx;
+	height: 180rpx;
+}
+.repeat {
+	margin-top: 20rpx;
+	font-size: 30rpx;
+	color: #808080;
+}
+.item {
+	background: white;
+	border-radius: 15rpx;
+	margin: 30rpx;
+	padding: 20rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-shadow: 5px 5px 8px #C0C0C0;
+	        box-shadow: 5px 5px 8px #C0C0C0;
+}
+.top {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	color: #999999;
+	font-size: 30rpx;
+}
+.item-title {
+	color: #0081ff;
+}
+.item-priorty {
+	color: red;
+	font-size: 25rpx;
+	margin-top: 20rpx;
+}
+.middle {
+	margin-top: 20rpx;
+	margin-bottom: 20rpx;
+	font-size: 25rpx;
+}
+.bottom {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	color: #999999;
+	font-size: 25rpx;
+}
+
