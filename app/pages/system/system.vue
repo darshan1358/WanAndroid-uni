@@ -22,9 +22,9 @@
 				<view v-else>
 					<view class="navigation" v-for="(navigationItem, navigationIndex) in navigationList" :key="navigationIndex">
 						<view class="navigation-name">{{ navigationItem.name }}</view>
-						<view class="detail-name" v-for="(navigationDetail, detailIndex) in navigationItem.articles" :key="detailIndex" @tap="jumpDetailPage(navigationDetail)">
+						<text decode="true" class="detail-name" v-for="(navigationDetail, detailIndex) in navigationItem.articles" :key="detailIndex" @tap="jumpDetailPage(navigationDetail)">
 							{{ navigationDetail.title }}
-						</view>
+						</text>
 					</view>
 				</view>
 			</swiper-item>

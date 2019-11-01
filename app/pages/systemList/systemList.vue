@@ -24,7 +24,7 @@
 							<view v-if="swiperItem.envelopePic != ''">
 								<image :src="swiperItem.envelopePic" mode="scaleToFill" style="width: 120upx; height: 120upx;margin-right: 20upx;"></image>
 							</view>
-							<view class="list-item-titlswipee">{{ swiperItem.title }}</view>
+							<text decode="true" class="list-item-titlswipee">{{ swiperItem.title }}</text>
 						</view>
 
 						<view class="list-item-bottom">

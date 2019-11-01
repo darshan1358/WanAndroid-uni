@@ -8,7 +8,7 @@
 		
 			<view class="list-item-image">
 				<view v-if="item.envelopePic != ''"><image :src="item.envelopePic" mode="scaleToFill" style="width: 120upx; height: 120upx;margin-right: 20upx;"></image></view>
-				<view class="list-item-title">{{ item.title }}</view>
+				<text decode="true" class="list-item-title">{{ item.title }}</text>
 			</view>
 		
 			<view class="list-item-bottom">
